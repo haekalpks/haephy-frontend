@@ -59,7 +59,7 @@ const Giphy = () => {
             value={search}
             type="text"
             placeholder="search"
-            className="px-3 rounded-[2px] bg-slate-200 w-[400px] h-[30px]"
+            className="px-3 rounded-[2px] bg-slate-200 lg:w-[400px] w-[200[x] h-[30px]"
           />
           <button
             onClick={handleSubmit}
@@ -71,7 +71,7 @@ const Giphy = () => {
         </form>
       </div>
 
-      <div className="grid grid-flow-row grid-cols-3">{RenderGiphy()}</div>
+      <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-3">{RenderGiphy()}</div>
     </div>
   )
 }
