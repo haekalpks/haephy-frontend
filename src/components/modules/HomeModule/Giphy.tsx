@@ -71,7 +71,9 @@ const Giphy = () => {
         </form>
       </div>
 
-      <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-3">{RenderGiphy()}</div>
+      <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-3">
+        {RenderGiphy()}
+      </div>
     </div>
   )
 }
